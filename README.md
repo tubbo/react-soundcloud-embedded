@@ -2,9 +2,9 @@
 
 Fork of Embedded SoundCloud widget, with TypeScript typings.
 
-![https://raw.githubusercontent.com/keske/react-soundcloud/c0ef115f6539120088079793eb45186b45d899af/example/images/visualTrue.png](https://raw.githubusercontent.com/keske/react-soundcloud/c0ef115f6539120088079793eb45186b45d899af/example/images/visualTrue.png)
+![](https://github.com/h0tw4t3r/react-soundcloud-embedded/blob/master/images/visualFalse.png?raw=true)
 
-![https://raw.githubusercontent.com/keske/react-soundcloud/c0ef115f6539120088079793eb45186b45d899af/example/images/visualFalse.png](https://raw.githubusercontent.com/keske/react-soundcloud/c0ef115f6539120088079793eb45186b45d899af/example/images/visualFalse.png)
+![](https://github.com/h0tw4t3r/react-soundcloud-embedded/blob/master/images/visualTrue.png?raw=true)
 
 ## Installation
 
