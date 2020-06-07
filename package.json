@@ -1,43 +1,44 @@
 {
-  "name": "react-soundcloud-embed",
-  "version": "1.0.3",
-  "description": "Soundcloud component",
-   "main": "dist/scrollEffects.min.js",
+  "name": "react-soundcloud-embedded",
+  "version": "2.0.0",
+  "description": "Embedded SoundCloud in your React application",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
-    "start": "node server.js",
-    "lint": "eslint src",
-    "build": "gulp"
+    "build": "rm -rf dist && ./node_modules/.bin/tsc",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keske/react-soundcloud.git"
+    "url": "https://github.com/hotwater/react-soundcloud-embedded.git"
   },
   "keywords": [
     "react",
     "reactjs",
     "soundcloud"
   ],
-  "author": "Andrey Keske <hello@andreykeske.com> (http://github.com/keske)",
+  "author": "Andrey Keske <hello@andreykeske.com> (https://github.com/keske)",
+  "contributors": [
+    "Vladyslav Dalechyn <hotwater438@tutanota.com> (https://github.com/hotwater)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/keske/react-soundcloud/issues"
+    "url": "https://github.com/hotwater/react-soundcloud-embedded/issues"
   },
-  "homepage": "https://github.com/keske/react-soundcloud",
+  "homepage": "https://github.com/hotwater/react-soundcloud-embedded",
   "devDependencies": {
-    "babel-core": "^5.4.7",
-    "babel-eslint": "^3.1.9",
-    "babel-loader": "^5.1.2",
-    "deap": "^1.0.0",
-    "eslint-plugin-react": "^2.3.0",
-    "react-hot-loader": "^1.2.7",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^5.1.0",
-    "gulp-concat": "^2.5.2",
-    "gulp-uglifyjs": "^0.6.2",
-    "webpack": "^1.9.6",
-    "webpack-dev-server": "^1.8.2"
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.20.0",
+    "prettier": "^2.0.5"
   },
   "dependencies": {
-    "react": "^0.13.0"
+    "react": "^0.13.0",
+    "typescript": "^3.9.5",
+    "@types/node": "^14.0.11",
+    "@types/react": "^16.9.35"
   }
 }
