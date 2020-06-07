@@ -1,6 +1,6 @@
-# React Soundcloud
+# react-soundcloud-embedded
 
-Embed Soundcloud widget.
+Fork of Embedded SoundCloud widget, with TypeScript typings.
 
 ![https://raw.githubusercontent.com/keske/react-soundcloud/c0ef115f6539120088079793eb45186b45d899af/example/images/visualTrue.png](https://raw.githubusercontent.com/keske/react-soundcloud/c0ef115f6539120088079793eb45186b45d899af/example/images/visualTrue.png)
 
@@ -8,21 +8,31 @@ Embed Soundcloud widget.
 
 ## Installation
 
-`npm install react-soundcloud`
-
-## Usage
-
-
-`var ReactSoundcloud = require('react-soundcloud-embed');`
+`npm install react-soundcloud-embedded`
 
 or
 
-`import ReactSoundcloud from 'react-soundcloud-embed';`
+`yarn add react-soundcloud-embedded`
+
+## Usage
+`import ReactSoundcloud from 'react-soundcloud-embedded';`
 
 Simple usage:
 
-```javascript
-React.render(<ReactSoundcloud url="https://soundcloud.com/icebound/dusty-breaks-at-the-bottom-of-the-random-crates"/>, document.getElementById('ReactSoundcloud'));
+```tsx
+import React, { FC } from 'react'
+import ReactDOM from 'react-dom'
+import ReactSoundCloud from 'react-soundcloud-embedded'
+import MyTrackURL from './somewhere'
+
+const Page = (): FC => (
+  <div>
+    <label>My SoundCloud:</label>
+    <ReactSoundCloud url={MyTrackURL} />
+  </div>
+)
+
+ReactDOM.render(<Page />, document.getElementById('root'))
 ```
 
 ### Props
@@ -36,6 +46,3 @@ React.render(<ReactSoundcloud url="https://soundcloud.com/icebound/dusty-breaks-
 - `showReposts` _(Boolean)_ - show reposts, default: `false`,
 - `visual` _(Boolean)_ - `true` for background image, default: `true`,
 - `color` _(String)_ - play button color, default: `ff5500`
-
-## TODO
-1. [ ] Example page
