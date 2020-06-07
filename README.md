@@ -1,6 +1,8 @@
 # react-soundcloud-embedded
+![npm](https://img.shields.io/npm/v/react-soundcloud-embedded)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-soundcloud-embedded)
 
-Fork of Embedded SoundCloud widget, with TypeScript typings.
+🎵 Fork of Embedded SoundCloud widget, now with TypeScript typings.
 
 ![](https://github.com/h0tw4t3r/react-soundcloud-embedded/blob/master/images/visualFalse.png?raw=true)
 
