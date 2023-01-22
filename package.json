@@ -12,33 +12,28 @@
     "type": "git",
     "url": "https://github.com/h0tw4t3r/react-soundcloud-embedded.git"
   },
-  "keywords": [
-    "react",
-    "reactjs",
-    "soundcloud"
-  ],
+  "keywords": ["react", "reactjs", "soundcloud"],
   "author": "Andrey Keske <hello@andreykeske.com> (https://github.com/keske)",
-  "contributors": [
-    "Vladyslav Dalechyn <hotwater438@tutanota.com> (https://github.com/hotwater)"
-  ],
+  "contributors": ["Vladyslav Dalechyn <hotwater438@tutanota.com> (https://github.com/hotwater)"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/h0tw4t3r/react-soundcloud-embedded/issues"
   },
   "homepage": "https://github.com/h0tw4t3r/react-soundcloud-embedded",
   "devDependencies": {
+    "@types/node": "^14.0.11",
+    "@types/react": "^16.9.35",
     "@typescript-eslint/eslint-plugin": "^3.1.0",
     "@typescript-eslint/parser": "^3.1.0",
     "eslint": "^7.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-react": "^7.20.0",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5",
+    "react": "^16.13.1"
   },
-  "dependencies": {
-    "@types/node": "^14.0.11",
-    "@types/react": "^16.9.35",
-    "react": "^16.13.1",
-    "typescript": "^3.9.5"
+  "peerDependencies": {
+    "react": "^16.13.1"
   }
 }
